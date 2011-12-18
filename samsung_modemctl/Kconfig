@@ -1,0 +1,13 @@
+#
+# Misc strange devices
+#
+
+menu "Modem Control"
+
+config BADA_MODEMCTL 
+	tristate "Modem Control for Samsung Bada/Mocha devices"
+#	depends on SAMSUNG_PHONE_SVNET
+	default n
+	help
+	  Say Y to enable Modem Control support.
+endmenu
